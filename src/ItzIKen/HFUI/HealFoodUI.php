@@ -34,7 +34,7 @@ class HealFoodUI extends PluginBase implements Listener
         $form = $api->createSimpleForm(function (Player $player, int $data = null) {
             switch ($data) {
                 case 0:
-                    /*$this->getServer()->dispatchCommand($player, "");*/
+                    /*$this->getServer()->dispatchCommand($player, ""); (to put a command on the button)*/
                     /*$player->sendMessage("Your Message");*/
                     /*$player->YourFunction();*/
                     break;
